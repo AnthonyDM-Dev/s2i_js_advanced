@@ -26,11 +26,15 @@ button, input {
 }
 .heading {
     width: 200px;
-    max-height: 55px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 15px auto;
+    &__image {
+        width: 200px;
+        max-height: 55px;
+        object-fit: contain;
+    }
 }
 .form {
     display: flex;
