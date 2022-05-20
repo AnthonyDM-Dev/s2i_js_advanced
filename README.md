@@ -16,7 +16,7 @@ Project is created with:
 * run command "npm run dev" to run the server.
 
 ## Try it live
-Have a look at it by clicking "[here](anthonydm-dev.github.io/s2i_JS_advanced)"
+Have a look at it by clicking [here](https://lively-cassata-15fba1.netlify.app)
 
 ## App PDF Presentation
 To have a preview of the application you can have a look at my PDF

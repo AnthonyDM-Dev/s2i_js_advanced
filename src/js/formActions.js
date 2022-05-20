@@ -40,8 +40,9 @@ export default {
         await transitions.setTextTransitions('fade-out');
         const headingH1 = document.getElementsByClassName('city__heading')[0].firstElementChild;
         headingH1.textContent = textFormat.capitalize(cityName);
-        const scoreParagraph = document.getElementsByClassName('city__score')[0].firstElementChild;
-        scoreParagraph.textContent = data.teleport_city_score.toFixed(3);
+        const scoreDiv = document.getElementsByClassName('city__score')[0];
+        const scoreValue = scoreDiv.getElementsByTagName('p')[1];
+        scoreValue.textContent = data.teleport_city_score.toFixed(3);
         const description = document.getElementsByClassName('city__description')[0];
         description.innerHTML = data.summary;
         this.setCategories(data);
