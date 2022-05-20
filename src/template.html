@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div class="homepage">
+        <div class="box">
+            <div class="heading">
+                <img id="s2i-logo" />
+            </div>
+            <div class="form__container">
+                <form id="form" class="form">
+                    <div class="input__container">
+                        <label class="input__label" for="city">Search for a city</label>
+                        <input class="input__text" type="text" value="" name="city"/>
+                    </div>
+                    <button id="form-button" class="form__submit-button" type="submit">
+                        Search for a location
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="city__container">
+            <div id="city-card" class="city__card">
+                <div class="city__heading">
+                    <h1></h1>
+                </div>
+                <div class="city__score">
+                    <p></p>
+                </div>
+                <div class="city__description">
+                    <p></p>
+                </div>
+                <div class="city__categories"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
